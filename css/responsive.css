@@ -1,0 +1,99 @@
+@media (max-width: 992px) {
+  .intro .container {
+    max-width: 700px;
+  }
+  .intro .container .row .intro-col h2 {
+    font-size: 33px;
+  }
+  .about .container {
+    max-width: 700px;
+  }
+  .about .container .row .about-img .about-img__row img {
+    width: 156px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 170px;
+  }
+  .about .container .row .about-column p {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .about .container .guarantee .row p {
+    width: 59%;
+    font-size: 26px;
+  }
+  .accordion-wrapper .container h3 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 767.98px) {
+  .intro {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .intro .container {
+    max-width: 500px;
+  }
+  .intro .container .row {
+    flex-direction: column-reverse;
+  }
+  .intro .container .row .intro-col {
+    width: 100%;
+  }
+  .intro .container .row .intro-col h2 {
+    font-size: 45px;
+  }
+  .intro .container .row ._sec-col img {
+    height: 80%;
+  }
+  .about .container {
+    max-width: 500px;
+  }
+  .about .container .row {
+    flex-direction: column-reverse;
+  }
+  .about .container .row .about-img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .about .container .row .about-img .about-img__row {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about .container .row .about-img .about-img__row img {
+    width: 214px;
+    height: 214px;
+  }
+  .about .container .row .about-column {
+    width: 100%;
+    text-align: center;
+  }
+  .about .container .row .about-column p {
+    margin-bottom: 60px;
+  }
+  .about .container .guarantee h3 {
+    font-size: 32px;
+  }
+  .about .container .guarantee .row p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .about .container .guarantee .row img {
+    width: 198px;
+    height: 190px;
+  }
+  .about .container .guarantee ul {
+    width: 100%;
+  }
+  .intro-article .container p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .wrapper .form .container h4 {
+    font-size: 23px;
+  }
+  .wrapper .form .form-btn button {
+    width: 314px;
+    height: 72px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
