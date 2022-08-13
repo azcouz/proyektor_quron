@@ -215,6 +215,9 @@ header {
 
             .row {
                 flex-direction: row;
+                align-items: center;
+                flex-wrap: nowrap;
+                margin: 0 auto;
 
                 p {
                     width: 75%;
