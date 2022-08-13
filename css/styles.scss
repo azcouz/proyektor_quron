@@ -83,7 +83,7 @@ header {
                 }
 
                 h2 {
-                    font-family: 'Inter';
+                    font-family: 'Varela';
                     font-weight: 400;
                     font-size: 48px;
                     line-height: 58px;
@@ -100,13 +100,13 @@ header {
                     height: 56px;
                     background: linear-gradient(97.62deg, #EB11AA -15.99%, #2E81E2 104.3%);
                     border-radius: 10px;
-                    font-family: 'Inter';
+                    font-family: 'Galano';
                     font-weight: 400;
-                    font-size: 16px;
+                    font-size: 20px;
                     line-height: 26px;
                     color: #FFFFFF;
                     text-decoration: none;
-                    padding: 20px 25px;
+                    padding: 20px 30px;
 
                 }
             }
@@ -126,16 +126,16 @@ header {
 
 .intro-article {
     background:
-        linear-gradient(89.96deg, rgba(203, 71, 160, 0.5) 0.02%, rgba(105, 71, 203, 0.5) 49.47%, rgba(0, 255, 133, 0.5) 99.97%);
+        linear-gradient(89.96deg, rgba(203, 71, 160) 0.02%, rgba(105, 71, 203) 49.47%, rgb(0, 228, 118) 99.97%);
     padding: 20px 0;
 
     .container {
         p {
-            width: 68%;
+            width: 50%;
             font-family: 'Varela';
             font-weight: 400;
             font-size: 30px;
-            line-height: 50px;
+            line-height: 40px;
             color: #FFFFFF;
             text-align: center;
             margin: 0 auto;
@@ -147,23 +147,26 @@ header {
 .about {
 
     background: #0A0C26;
-    padding: 40px 0;
+    padding: 80px 0;
 
     .container {
         .row {
-            flex-direction: row;
+            display: flex;
             align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
 
             .about-column {
                 width: 50%;
 
                 p {
-                    font-family: 'Inter';
+                    font-family: 'Varela';
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 35px;
-                    line-height: 56px;
+                    font-size: 30px;
+                    line-height: 40px;
                     color: #F8F6FA;
+                    margin-bottom: 35px;
                 }
 
                 a {
@@ -173,25 +176,25 @@ header {
                     border-radius: 10px;
                     color: #F8F6FA;
                     line-height: 26px;
-                    font-family: 'Inter';
+                    font-family: 'Galano';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 16px;
+                    font-size: 20px;
                     text-decoration: none;
-                    padding: 20px 25px;
+                    padding: 20px 30px;
                 }
             }
 
             .about-img {
-                width: 50%;
+                width: 40%;
 
                 .about-img__row {
+                    display: flex;
                     flex-wrap: wrap;
 
                     img {
-                        width: 249px;
-                        height: 249px;
-                        margin: 2px;
+                        width: 200px;
+                        margin: 6px;
                         object-fit: cover;
                     }
                 }
@@ -222,37 +225,31 @@ header {
                 p {
                     width: 75%;
                     font-family: 'Galano';
-                    font-size: 34px;
-                    line-height: 42px;
+                    font-size: 26px;
+                    line-height: 32px;
                     color: #E6C551;
                     text-align: left;
 
                 }
 
                 img {
-                    width: 285px;
-                    height: 262px;
-                    object-fit: cover;
+                    width: 150px;
+                    // height: 150px;
+                    object-fit: contain;
                 }
             }
 
             ul {
-                padding: 0;
-                list-style-type: none;
-                width: 70%;
-                margin-left: 20px;
-
-
-
+                width: 80%;
 
                 li {
                     font-family: 'Galano';
-                    font-size: 18px;
-                    line-height: 20px;
+                    font-size: 20px;
+                    line-height: 24px;
                     color: #02FCB1;
-                    margin: 10px 0;
+                    margin: 15px 0;
                     list-style-type: circle;
-
+                    text-align: left;
                 }
             }
         }
@@ -277,13 +274,13 @@ header {
     .form {
         .container {
             h4 {
-                font-family: 'Spline Sans';
+                font-family: 'Varela';
                 font-style: normal;
-                font-weight: 600;
-                font-size: 30px;
-                line-height: 43px;
+                font-size: 26px;
+                line-height: 32px;
                 color: #FFFFFF;
                 text-align: center;
+                width: 80%;
             }
 
            
