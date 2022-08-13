@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 @font-face {
     font-family: "Inter";
     src: url("../fonts/Inter/static/")
@@ -281,6 +283,7 @@ header {
                 text-align: center;
             }
 
+           
             .form_wrap {
                 width: 75%;
                 border: 2px solid #222;
@@ -291,6 +294,15 @@ header {
                     display: flex;
                     flex-direction: column-reverse;
                     margin: 15px 0;
+                    .input-gradient{
+                        border: 3px solid;
+                        border-image-slice: 1;
+                        opacity: 0.7;
+                    } 
+                    .input-gradient-purple{
+                        border-image-source: linear-gradient(to left, #00FF85,#CB47A0, #2E81E2,#13DD91,#4E77B9);
+                       
+                    }
 
                     input {
                         border: none;
@@ -320,6 +332,16 @@ header {
                 }
 
             }
+            .border-gradient {
+                border: 10px solid;
+                border-image-slice: 1;
+                border-width: 5px;
+            }
+
+            .border-gradient-purple {
+                border-image-source: linear-gradient(to left, #743ad5,#00FF85, #2E81E2,#d53a9d);
+            }
+
         }
 
         .form-btn {
@@ -364,7 +386,7 @@ header {
             color: #fff;
             text-align: center;
             margin-bottom: 59px;
-            
+
         }
 
         .container-ac {

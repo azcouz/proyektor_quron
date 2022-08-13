@@ -12,25 +12,31 @@ html {
   font-family: "Inter";
   src: url("../fonts/Inter/static/");
 }
+
 @font-face {
-  font-family: "Galano";
+  font-family: 'Galano';
   src: url("../fonts/first_font/GalanoGrotesque-Bold.ttf");
 }
+
 @font-face {
-  font-family: "Spline Sans";
+  font-family: 'Spline Sans';
   src: url("../fonts/Spline_Sans/static/");
 }
+
 @font-face {
   font-family: "Varela";
   src: url("../fonts/second_fond/VarelaRound-Regular.ttf");
 }
+
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
 }
 
 header h1 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 64px;
   line-height: 69px;
 }
@@ -38,52 +44,67 @@ header h1 {
 .intro {
   background-color: #0A0C26;
 }
+
 .intro .container header h1 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 64px;
   line-height: 69px;
   text-align: center;
 }
+
 .intro .container header h1 .firts-title {
   color: #C947A1;
 }
+
 .intro .container header h1 .sec-title {
   color: #13DD91;
 }
+
 .intro .container header h1 .third-title {
   color: #4E77B9;
 }
+
 .intro .container header h1 .four-title {
   color: #6D47C9;
 }
+
 .intro .container .row {
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .intro .container .row .intro-col {
   width: 50%;
 }
+
 .intro .container .row .intro-col img {
   width: 100%;
   height: 100%;
 }
+
 .intro .container .row .intro-col h2 {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 48px;
   line-height: 58px;
   color: #F8F6FA;
   margin-bottom: 40px;
 }
+
 .intro .container .row .intro-col h2 span {
   color: #FE2C55;
 }
+
 .intro .container .row .intro-col a {
   width: 200px;
   height: 56px;
   background: linear-gradient(97.62deg, #EB11AA -15.99%, #2E81E2 104.3%);
   border-radius: 10px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -91,9 +112,11 @@ header h1 {
   text-decoration: none;
   padding: 20px 25px;
 }
+
 .intro .container .row ._firts-col {
   width: 40%;
 }
+
 .intro .container .row ._sec-col {
   width: 60%;
 }
@@ -102,9 +125,10 @@ header h1 {
   background: linear-gradient(89.96deg, rgba(203, 71, 160, 0.5) 0.02%, rgba(105, 71, 203, 0.5) 49.47%, rgba(0, 255, 133, 0.5) 99.97%);
   padding: 20px 0;
 }
+
 .intro-article .container p {
   width: 68%;
-  font-family: "Varela";
+  font-family: 'Varela';
   font-weight: 400;
   font-size: 30px;
   line-height: 50px;
@@ -117,21 +141,30 @@ header h1 {
   background: #0A0C26;
   padding: 40px 0;
 }
+
 .about .container .row {
-  flex-direction: row;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .about .container .row .about-column {
   width: 50%;
 }
+
 .about .container .row .about-column p {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 35px;
   line-height: 56px;
   color: #F8F6FA;
 }
+
 .about .container .row .about-column a {
   width: 200px;
   height: 56px;
@@ -139,19 +172,23 @@ header h1 {
   border-radius: 10px;
   color: #F8F6FA;
   line-height: 26px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
   padding: 20px 25px;
 }
+
 .about .container .row .about-img {
   width: 50%;
 }
+
 .about .container .row .about-img .about-img__row {
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 .about .container .row .about-img .about-img__row img {
   width: 249px;
   height: 249px;
@@ -159,44 +196,55 @@ header h1 {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 .about .container .guarantee {
   text-align: center;
   padding-top: 40px;
 }
+
 .about .container .guarantee h3 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 48px;
   line-height: 56px;
   color: #fff;
 }
+
 .about .container .guarantee h3 span {
   color: #FE2C55;
 }
+
 .about .container .guarantee .row {
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 .about .container .guarantee .row p {
   width: 75%;
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 34px;
   line-height: 42px;
   color: #E6C551;
   text-align: left;
 }
+
 .about .container .guarantee .row img {
   width: 285px;
   height: 262px;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 .about .container .guarantee ul {
   padding: 0;
   list-style-type: none;
   width: 70%;
   margin-left: 20px;
 }
+
 .about .container .guarantee ul li {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 18px;
   line-height: 20px;
   color: #02FCB1;
@@ -215,8 +263,9 @@ header h1 {
   background-color: #0A0C26;
   padding: 40px;
 }
+
 .wrapper .form .container h4 {
-  font-family: "Spline Sans";
+  font-family: 'Spline Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -224,17 +273,35 @@ header h1 {
   color: #FFFFFF;
   text-align: center;
 }
+
 .wrapper .form .container .form_wrap {
   width: 75%;
   border: 2px solid #222;
   padding: 50px 70px;
   margin: 40px auto;
 }
+
 .wrapper .form .container .form_wrap .form_wrap--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   margin: 15px 0;
 }
+
+.wrapper .form .container .form_wrap .form_wrap--item .input-gradient {
+  border: 3px solid;
+  border-image-slice: 1;
+  opacity: 0.7;
+}
+
+.wrapper .form .container .form_wrap .form_wrap--item .input-gradient-purple {
+  border-image-source: linear-gradient(to left, #00FF85, #CB47A0, #2E81E2, #13DD91, #4E77B9);
+}
+
 .wrapper .form .container .form_wrap .form_wrap--item input {
   border: none;
   outline: none;
@@ -244,11 +311,14 @@ header h1 {
   font-weight: 400;
   font-size: 20px;
 }
-.wrapper .form .container .form_wrap .form_wrap--item input:focus, .wrapper .form .container .form_wrap .form_wrap--item input:focus ~ label {
+
+.wrapper .form .container .form_wrap .form_wrap--item input:focus,
+.wrapper .form .container .form_wrap .form_wrap--item input:focus ~ label {
   opacity: 1;
 }
+
 .wrapper .form .container .form_wrap .form_wrap--item label {
-  font-family: "Spline Sans";
+  font-family: 'Spline Sans';
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
@@ -256,16 +326,28 @@ header h1 {
   color: #FFFFFF;
   opacity: 0.8;
 }
+
+.wrapper .form .container .border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.wrapper .form .container .border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #00FF85, #2E81E2, #d53a9d);
+}
+
 .wrapper .form .form-btn {
   text-align: center;
   margin-top: 15px;
 }
+
 .wrapper .form .form-btn button {
   width: 392px;
   height: 96px;
   background: #000000;
   border-radius: 100px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -273,9 +355,11 @@ header h1 {
   outline: none;
   border: none;
 }
+
 .wrapper .form .form-btn button:active {
   background-color: #ffffff;
   color: #000000;
+  -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 
@@ -284,8 +368,9 @@ header h1 {
   background-color: #0A0C26;
   padding: 20px 0;
 }
+
 .accordion-wrapper .container h3 {
-  font-family: "Galano";
+  font-family: 'Galano';
   font-size: 48px;
   line-height: 56px;
   line-height: 28px;
@@ -293,21 +378,25 @@ header h1 {
   text-align: center;
   margin-bottom: 59px;
 }
+
 .accordion-wrapper .container .container-ac {
   margin: 0 auto;
   padding-bottom: 10px;
   text-align: center;
 }
+
 .accordion-wrapper .container .container-ac button.accordion {
   background: #fff;
   border-radius: 20px;
   border: none;
   padding: 8px 20px;
+  -webkit-transition: background-color 0.3s linear;
   transition: background-color 0.3s linear;
   width: auto;
 }
+
 .accordion-wrapper .container .container-ac button.accordion p {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -316,26 +405,32 @@ header h1 {
   color: #000000;
   margin-bottom: 0;
 }
+
 .accordion-wrapper .container .container-ac button.accordion.is-open {
   background-color: #45A78D;
 }
+
 .accordion-wrapper .container .container-ac button.accordion.is-open p {
   color: white;
 }
+
 .accordion-wrapper .container .container-ac .accordion-content {
   width: 80%;
   margin: 0 auto;
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   background-color: #45A78D;
   color: #fff;
   margin-top: 10px;
   border-radius: 8px;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
+
 .accordion-wrapper .container .container-ac .accordion-content p {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -343,4 +438,5 @@ header h1 {
   padding: 10px;
   line-height: 19px;
   margin-bottom: 0;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */

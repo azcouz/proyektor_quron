@@ -162,3 +162,134 @@
         }
     }
 }
+
+@media(max-width:575.98px){
+    .about{
+        .container{
+            .row{
+                .about-img{
+                    .about-img__row{
+                        img{
+                            width: 187px;
+                            height: 214px;
+                        }
+                    }
+                }
+            }
+            .guarantee{
+                h3{
+                    font-size: 26px;
+                }
+                .row{
+                    img{
+                        width: 163px;
+                        height: 149px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                }
+                ul{
+                    width: 90%;
+                    margin-left: 28px;
+                    li{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+       
+    }
+    .wrapper{
+        .form{
+            .container{
+                .form_wrap{
+                    width:100% ;
+                    border: none;
+                    padding: 0;
+                    
+                }
+            }
+            .form-btn{
+                button{
+                    width: 185px;
+                    height: 54px;
+                }
+            }
+
+        }
+
+    }
+}
+
+@media(max-width:414.98px){
+    .intro{
+        .container{
+            header{
+                h1{
+                    font-size: 31px;
+                }
+            }
+            .row{
+                .intro-col{
+                    h2{
+                        font-size: 33px;
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .intro-article{
+        .container{
+            p{
+                width: 100%;
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .about{
+        .container{
+            .row{
+                .about-img{
+
+                    .about-img__row{
+                        img{
+                            width: 137px;
+                            height: 164px;
+                        }
+                    }
+                }
+                .about-column{
+                    p{
+                        font-size: 19px;
+                        line-height: 31px;
+                    }
+                }
+            }
+            .guarantee{
+                h3{
+                    font-size: 19px;
+                }
+                .row{
+                    img{
+                        width: 121px;
+                        height: 114px;
+                    }
+                }
+            }
+        }
+    }
+    .accordion-wrapper{
+        .container{
+            h3{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
