@@ -93,10 +93,12 @@
     width: 100%;
   }
   .intro-article .container p {
+    width: 100%;
     font-size: 22px;
     line-height: 30px;
   }
   .wrapper .form .container h4 {
+    width: 100%;
     font-size: 23px;
   }
   .wrapper .form .form-btn button {
@@ -107,7 +109,7 @@
 
 @media (max-width: 575.98px) {
   .about .container .row .about-img .about-img__row img {
-    width: 187px;
+    width: 225px;
     height: 214px;
   }
   .about .container .guarantee h3 {
@@ -164,7 +166,7 @@
     font-size: 19px;
   }
   .about .container .guarantee .row img {
-    width: 121px;
+    width: 160px;
     height: 114px;
   }
   .accordion-wrapper .container h3 {
