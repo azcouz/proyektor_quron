@@ -120,6 +120,7 @@
     height: 149px;
   }
   .about .container .guarantee .row p {
+    width: 65%;
     font-size: 16px;
     line-height: 23px;
   }
@@ -155,7 +156,7 @@
     line-height: 25px;
   }
   .about .container .row .about-img .about-img__row img {
-    width: 137px;
+    width: 181px;
     height: 164px;
   }
   .about .container .row .about-column p {
